@@ -9,6 +9,7 @@ export default defineConfig({
       localsConvention: "camelCase",
     },
   },
+  base: "./Portfolio",
   build: {
     outDir: 'build',
   },
