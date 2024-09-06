@@ -1,10 +1,11 @@
 import React, { useState } from "react";
-
+import { Link, useLocation } from "react-router-dom";
 import styles from "./Navbar.module.css";
 import { getImageUrl } from "../../utils";
 
 export const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
+  const location = useLocation();
 
   return (
     <nav className={styles.navbar}>
@@ -23,20 +24,23 @@ export const Navbar = () => {
           onClick={() => setMenuOpen(!menuOpen)}
         />
         <ul
-          className={`${styles.menuItems} ${menuOpen && styles.menuOpen}`}
+          className={`${styles.menuItems} ${menuOpen ? styles.menuOpen : ""}`}
           onClick={() => setMenuOpen(false)}
         >
-          <li>
-            <a href="#about">About</a>
+          <li className={location.pathname === "/" ? styles.active : ""}>
+            <Link to="/">Home</Link>
           </li>
-          <li>
-            <a href="#experience">Experience</a>
+          <li className={location.pathname === "/about" ? styles.active : ""}>
+            <Link to="/about">About</Link>
           </li>
-          <li>
-            <a href="#projects">Projects</a>
+          <li className={location.pathname === "/experience" ? styles.active : ""}>
+            <Link to="/experience">Experience</Link>
           </li>
-          <li>
-            <a href="#contact">Contact</a>
+          <li className={location.pathname === "/projects" ? styles.active : ""}>
+            <Link to="/projects">Projects</Link>
+          </li>
+          <li className={location.pathname === "/contact" ? styles.active : ""}>
+            <Link to="/contact">Contact</Link>
           </li>
         </ul>
       </div>
