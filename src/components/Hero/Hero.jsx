@@ -2,6 +2,7 @@ import React from "react";
 
 import styles from "./Hero.module.css";
 import { getImageUrl } from "../../utils";
+import { Link } from "react-router-dom";
 
 export const Hero = () => {
   return (
@@ -11,9 +12,9 @@ export const Hero = () => {
         <p className={styles.description}>
         I'm a full-stack developer with experience in various coding languages. Reach out if you'd like to learn more, or you may browse my project page!
         </p>
-        <a href="mailto:joannajodelacruz@gmail.com" className={styles.contactBtn}>
+        <Link to="/contact" className={styles.contactBtn}>
           Contact Me
-        </a>
+        </Link>
       </div>
       <img
         src={getImageUrl("hero/heroImage.png")}

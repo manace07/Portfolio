@@ -1,30 +1,90 @@
 [
   {
-    "title": "HTML",
-    "imageSrc": "skills/html.png"
+    "title": "Adobe Suite",
+    "imageSrc": "skills/adobe.png"
+  },
+  {
+    "title": "Bootstrap",
+    "imageSrc": "skills/bootstrap.png"
+  },
+  {
+    "title": "C++",
+    "imageSrc": "skills/cplus.png"
+  },
+  {
+    "title": "C#",
+    "imageSrc": "skills/csharp.png"
   },
   {
     "title": "CSS",
     "imageSrc": "skills/css.png"
   },
   {
+    "title": "Figma",
+    "imageSrc": "skills/figma.png"
+  },
+  {
+    "title": "HTML",
+    "imageSrc": "skills/html.png"
+  },
+  {
+    "title": "Ionic",
+    "imageSrc": "skills/ionic.png"
+  },
+  {
+    "title": "Java",
+    "imageSrc": "skills/java.png"
+  },
+  {
+    "title": "JavaScript",
+    "imageSrc": "skills/js.png"
+  },
+  {
+    "title": "Kotlin",
+    "imageSrc": "skills/kotlin.png"
+  },
+  {
+    "title": "Laravel 10",
+    "imageSrc": "skills/laravel.png"
+  },
+  {
+    "title": "MS Suite",
+    "imageSrc": "skills/microsoft.png"
+  },
+  {
+    "title": "MySQL",
+    "imageSrc": "skills/mysql.png"
+  },
+  {
+    "title": "NodeJS",
+    "imageSrc": "skills/node.png"
+  },
+  {
+    "title": "PHP",
+    "imageSrc": "skills/php.png"
+  },
+  {
+    "title": "Postgre SQL",
+    "imageSrc": "skills/postgre.png"
+  },
+  {
+    "title": "Python",
+    "imageSrc": "skills/python.png"
+  },
+  {
     "title": "React",
     "imageSrc": "skills/react.png"
   },
   {
-    "title": "Node",
-    "imageSrc": "skills/node.png"
+    "title": "Swift",
+    "imageSrc": "skills/swift.png"
   },
   {
-    "title": "GraphQL",
-    "imageSrc": "skills/graphql.png"
+    "title": "Tailwind CSS",
+    "imageSrc": "skills/tailwindcss.png"
   },
   {
-    "title": "MongoDB",
-    "imageSrc": "skills/mongodb.png"
-  },
-  {
-    "title": "Figma",
-    "imageSrc": "skills/figma.png"
+    "title": "Wordpress",
+    "imageSrc": "skills/wordpress.png"
   }
 ]
